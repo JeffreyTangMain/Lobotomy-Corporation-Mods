@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {You told me once, shedding petals instead of tears.}
+{"We were all nothing but soil once, so do not speak of an end here."}
+{You told me, blossoming flowers with your body as if they were your last ones.}
+{"Soon..."}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Spring will come." target="1" isAnswer="true"/>
+        <node desc="Winter will come." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {"Spring is coming."}
+{Slowly, rapturously, the end began.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {"Winter is coming."}
+{Gradually, their atonement draws to an end.}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {죽는 것을 두려워 하지 않는다는 정신은 로보토미의 사훈과 어울리네요.}
+        {하지만 그게 과연 훌륭한 정신이라고 볼 수 있을지는 저는 잘 모르겠어요.}
+        ]
+      </angela>
+    </max>

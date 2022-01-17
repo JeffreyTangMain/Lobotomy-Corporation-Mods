@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="C_100005">
+     
+     <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+     <cg src="BlackCG"/>
+     <bgm src="story-03-ogg" />
+    <speak speaker="angela">custom/Nullthing_1</speak>
+    <speak speaker="angela">custom/Nullthing_2</speak>
+    <speak speaker="angela">custom/Nullthing_3</speak>
+    <speak speaker="angela">custom/Nullthing_4</speak>
+    <speak speaker="angela">custom/Nullthing_5</speak>
+    <speak speaker="angela">custom/Nullthing_6</speak>
+    <speak>custom/Nullthing_7</speak>
+    <remove_cg effect="fade" />
+  </scene>
+</root>

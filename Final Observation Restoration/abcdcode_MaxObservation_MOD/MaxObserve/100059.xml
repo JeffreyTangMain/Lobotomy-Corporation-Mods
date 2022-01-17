@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {You look at the trees in full bloom before your eyes.}
+{It is as if it shows the beauty of a spring day that could never exist in a place like this.} 
+{You...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Approach it." target="1" isAnswer="false"/>
+        <node desc="Distance yourself." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {You approach the tree like you are bewitched.}
+{Drunk in its beauty, it just stays there.} 
+{Lost to it, you continue to pursue beauty without knowing why.} 
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {You feel something unsafe in such a tree.}
+{It may not be as beautiful on the inside as the outside would imply.} 
+{You know that kind of duality, so you leave the tree.} 
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

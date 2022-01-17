@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {The dozens of blazing eyes are looking at one thing.}
+{The bird that lived in the forest didn't like creatures being eaten by monsters.}
+{"If I kill first, no creatures will be killed by the beast"}
+{Every time the bird saved a life, it got an eye.}
+{The bird could not close those eyes no matter how tired it got, for the beast could come hurting creatures at any time.}
+{By the time eyes covered the whole body of the big bird, no one was around it.}
+{To shine a light in this dark forest, the big bird burned every single feather it had to make an everlasting lamp.}
+{The big bird could now hardly be called a bird as it has no feathers at all.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Pet it." target="1" isAnswer="true"/>
+        <node desc="Don't pet it." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {It was not soft. Actually, it gave you chills.}
+{You felt eyes looking at you with curiosity.}
+{Eyes started closing as you pet the bird.}
+{The big bird, for the first time ever, peacefully fell asleep.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {The bird could get angry and bite you.}
+{You got out of the room in fear.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

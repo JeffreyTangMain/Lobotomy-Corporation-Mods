@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {You find a flower while walking in the hallway.}
+{The bright flower in the dreary hallway is enough to attract your attention.} 
+{You look at the flower.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Appreciate it." target="1" isAnswer="false"/>
+        <node desc="Call the staff." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {You look at the flowers longlingly.}
+{Deep and long enough to appreciate its freshness.} 
+{You didn't even see the big shadow covering you.} 
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {You know that this is not a flower.} 
+{You quietly call the staff.} 
+{The trap was demolished without anyone stepping on it.}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {I thought it was going to be cold, but...}
+{Before I knew it, it was warm.}
+{The match in my heart will never go out.}
+{The fire has never burned out before.}
+{...}
+{I don't know when I got warm.}
+{Maybe... my body is why it burns so brightly.}
+{...}
+{I've tried to run from it.}
+{But it's been painful until now, and it will be painful in the future}
+{...}
+{Why are you as happy as ever?}
+{I know how much of a threat I've become.}
+{If you don't change, I'd like to see you suffer too.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="I want you to join me." target="1" isAnswer="false"/>
+        <node desc="I won't change." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {I am coming to you.}
+{You, who will be reduced to ash like me.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {...}
+{I can see you other there.}
+{You probably think I'm like a distant star or lighthouse.}
+{Someday, you'll only know the light going out, and the ashes I leave behind.}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

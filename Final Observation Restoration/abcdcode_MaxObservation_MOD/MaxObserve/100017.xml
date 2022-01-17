@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {This baby never cries.}
+{It's been that way forever.}
+{Just like how a lack of words doesn't necessarily mean a lack of emotions...}
+{A lack of crying doesn't mean lack of needs.}
+{Somewhere along the line, the baby got a new mouth.}
+{It now cries on behalf of babies who don't know how to cry, it tells people it's hungry on behalf of babies, it causes people pain on behalf of babies.}
+{You...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Call its name." target="1" isAnswer="true"/>
+        <node desc="Stay silent." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {No one else knows the name of the fetus.}
+{But you know.}
+{You called its name.}
+{The baby filled with needs shut its mouth for a while.}
+{Even if only for a short time, its cries were silenced.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {The fetus is still crying.}
+{You plugged your ears silently.}
+{No more cries are heard.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {I am a spider.}
+{I eat anything my web catches.}
+{I am starving.}
+{I haven't eaten anything for days.}
+{There is a big prey caught in my web.}
+{My starvation could kill me if I don't eat something.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Eat the prey." target="1" isAnswer="false"/>
+        <node desc="Don't eat the prey." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {I devour the prey.}
+{My body reacted faster than my thoughts.}
+{...}
+{I am a spider.}
+{I eat anything my web catches.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {I could not eat the prey in front of me.}
+{This starvation is slowly tiring me out.}
+{The prey struggles to get out, to survive.}
+{The struggle did nothing but shake my web a bit.}
+{And I watch the prey.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

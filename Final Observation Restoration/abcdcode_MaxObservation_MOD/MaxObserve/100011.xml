@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {It's fun to clean.}
+{I was...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Special" target="1" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {There were many friends who looked like me, but I was special.}
+{My creator always said it to me.}
+{"You will be sent to her. You are special. You can give them a very special present."}
+{A number of tools, which weren't on my friends, were put onto me.}
+{When I was sent to a new home, I gave them a present.}
+        ]
+      </desc>
+
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="C_100060">
+<character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+     <cg src="BlackCG"/>
+     <bgm src="story-03-ogg" />
+    <speak speaker="angela">custom/Baku_1</speak>
+<speak speaker="angela">custom/Baku_2</speak>
+<speak speaker="angela">custom/Baku_3</speak>
+<speak speaker="angela">custom/Baku_4</speak>
+<speak speaker="angela">custom/Baku_5</speak>
+    <speak>custom/Baku_6</speak>
+    <remove_cg effect="fade" />
+  </scene>
+</root>

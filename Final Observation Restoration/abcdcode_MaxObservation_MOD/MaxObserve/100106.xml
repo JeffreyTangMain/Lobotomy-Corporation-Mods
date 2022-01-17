@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {Ppodae is loved by almost everyone.}
+{It seems that no one can resist feeling like a king after single greeting given by Ppodae.}
+{But you know what this puppy looks like.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Recall its true appearance." target="1" isAnswer="true"/>
+        <node desc="Stroke its hair." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {Not long ago, this guy ate an employee.}
+{... it must be the employee's fault for not feeding Ppodae.}
+{That's what you think and take out the camera in your pocket.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {... well, I don't know if he did it for no reason.}
+{No matter how hard I think about it, the fault must be with the employees, not Ppodae.}
+{We should call in employees who have neglected Podae's management and conduct special training later.}
+{That's what you think and take out the camera in your pocket.}
+        ]
+      </desc>
+
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

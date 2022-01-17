@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {This is a tidy looking nest.}
+{But it's an endless pit of evil.}
+{It holds serpents that grew up feeding on good and evil.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Look into the nest." target="1" isAnswer="false"/>
+        <node desc="Cover one's mouth." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="2">
+        [
+        {The serpents wriggle.}
+        {Screaming and twisting, always moving.}
+        {"Look."}
+        {They stop moving and look at you. You...}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+        {When you bite into a forbidden apple, good and evil are created.}
+        {There are no more cycles of good and evil.}
+        {The last bite is left to rot.} 
+        ]
+      </desc>
+
+<select id="2">
+        <node desc="Close your eyes." target="3" isAnswer="false"/>
+        <node desc="Look at it." target="4" isAnswer="true"/>
+      </select>
+
+<desc id="3" select="0">
+        [
+        {You refused to expose yourself to it further.}
+        {There are no more cycles of good and evil.}
+        {The last bite is left to rot.} 
+        ]
+      </desc>
+
+<desc id="4" select="0">
+        [
+        {You confirm it yourself in the moment.}
+        {There is no trace left of evil.} 
+        {In this place where good and evil live...} 
+        {The only thing left is a feeling of bliss.} 
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {It's like a soft light flying around.}
+{The tip of your nose is itchy from the dust in the air.}
+{You're...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Lost in thought for a moment." target="1" isAnswer="true"/>
+        <node desc="Walking out of the isolation room." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+{It's been a long time since you grew up to believe such a silly story.}
+{Those days when you were stupid and naive.}
+{Now you know the cruel truth behind fairy tales.}
+{Their fairy tale remains as a memory and will never be told.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {They just observe and wait.}
+{They have their own conversation in a secret language.}
+{If the most appropriate time comes, a festival will finally be held.}
+{They will pour red wine into your guts and have a big festival.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {My heart is too cold.}
+{The reason is because I don't have a heart.}
+{I need a heart.}
+{I have a heart in front of me, just in time.} 
+{I will...} 
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Cut out their heart." target="1" isAnswer="false"/>
+        <node desc="Not cut out their heart." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="2">
+        [
+        {I put the still beating heart into my heart.}
+{My cold heart is warming up with my new heart.}
+{As my heart warms up, my body hardened with a cold heart starts to move.} 
+{But my warm heart is getting cold.} 
+{And there is a heart in front of my eyes.} 
+{I'll do it again...} 
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {I have a heart in front of me, but I didn't cut it out.}
+{My heart is still cold.} 
+{When I get a heart, my heart gets warm.} 
+{Nevertheless, I did not cut that heart.} 
+{Because it is not my real heart.} 
+        ]
+      </desc>
+
+<select id="2">
+        <node desc="Cut out their heart." target="3" isAnswer="false"/>
+      </select>
+
+<desc id="3" select="0">
+        [
+        {I got a heart.}
+{My heart is getting warm again.}
+{My mind is cooling down again.} 
+{And I cut for a heart again.} 
+{I will keep cutting my heart until my heart is warm forever.} 
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

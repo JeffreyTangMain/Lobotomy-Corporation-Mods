@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {You still remember thinking that it had no expressions.}
+{The sadness that you felt dimly behind the mask still seems to be lingering.}
+{Then and now, you see the dried skin in front of you.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="It looks the same." target="1" isAnswer="false"/>
+        <node desc="It looks changed." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {Their face is still stiff today.}
+{It can change its facial expressions, but compared to anyone else, its face is still stiff.}
+{Perhaps the sadness will never change.}
+{Then, in this place where there is not a ray of light, you have no choice but to look at the dry skin waiting for you...}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {It is still shy today.}
+{But you notice a very, very subtle change.}
+{Sometimes, it has a totally unexpected look on its face.}
+{It's a mask, but it's changing very little by little by little.}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

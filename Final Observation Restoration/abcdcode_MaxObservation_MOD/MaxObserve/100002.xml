@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {A rubbish teddy bear. Its wool sticks out here and there.}
+{The amount of dust piled up on it reveals how long this teddy has been abandoned.}
+{One of the buttons, which are its eyes, is hanging loose.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Remove the button." target="1" isAnswer="false"/>
+        <node desc="Leave." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="2">
+        [
+        {You pull the button off.}
+		{As it falls to the ground, you feel an uncomfortable air around you.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+        {You don't know what to do, so you just leave it alone.}
+		{The teddy sits there without any movement.}
+        ]
+      </desc>
+
+     <select id="2">
+        <node desc="Remove a button from your shirt." target="3" isAnswer="true"/>
+      </select>
+      
+<desc id="3" select="0">
+        [
+       {You take a button off your shirt and sew it onto the teddy's face.}
+{The button doesn't match.}
+{You knot it tightly so it won't fall off again.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

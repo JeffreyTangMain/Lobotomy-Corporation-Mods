@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {A woman is crying.}
+{You cannot see her face while you're turned away, but you know who she is.}
+{Her muttering is unintelligible, and it gives you goosebumps.}
+{You don't like being in the same space with her.}
+{You want to get out.}
+{The woman seems to be sobbing now.}
+{You feel as though her crying is insisting you turn towards her...}
+{But you also feel that you should not.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Turn back." target="1" isAnswer="true"/>
+        <node desc="Do not turn back." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {With some hesitation, you turned back.}
+{You faced the woman.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {Something terrible could happen if you turn back.}
+{You exit the room, without looking back.}
+        ]
+      </desc>
+
+   
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

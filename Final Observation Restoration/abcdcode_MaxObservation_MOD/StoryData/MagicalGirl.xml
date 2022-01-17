@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="C_100004">
+<character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+     <cg src="BlackCG"/>
+     <bgm src="story-03-ogg" />
+    <speak speaker="angela">custom/MagicalGirl_1</speak>
+    <speak speaker="angela">custom/MagicalGirl_2</speak>
+    <speak speaker="angela">custom/MagicalGirl_3</speak>
+    <speak speaker="angela">custom/MagicalGirl_4</speak>
+    <speak speaker="angela">custom/MagicalGirl_5</speak>
+    <speak speaker="angela">custom/MagicalGirl_6</speak>
+    <speak>custom/MagicalGirl_7</speak>
+    <remove_cg effect="fade" />
+  </scene>
+</root>

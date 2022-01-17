@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="C_100102">
+     
+     <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+     <cg src="BlackCG"/>
+     <bgm src="story-03-ogg" />
+    <speak speaker="angela">custom/SnowQueen_1</speak>
+    <speak speaker="angela">custom/SnowQueen_2</speak>
+    <speak>custom/SnowQueen_3</speak>
+    <remove_cg effect="fade" />
+  </scene>
+</root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {The chamber is empty except for the Little Red Riding Hooded Mercenary, her axe, and her gun. She seems exhausted.}
+{"Am I really alive? What if I'm a ghost that doesn't even know it's dead?"}
+{"The only thing I love in my life is the death of the Wolf."}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Console her." target="1" isAnswer="true"/>
+        <node desc="Exit the room." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {"I will swing my axe again tomorrow, still driven by hatred like I have been forever."}
+{"But tonight... I think I can sleep peacefully."}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {"Knock on my door whenever you need my services."}
+{"This is my burden."}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

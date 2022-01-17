@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {There was a long bird who lived in a forest that didn't want to let creatures be eaten by beasts.}
+{His initial goal was pure, at least.}
+{The forest began to be filled with darkness.}
+{Time is only filled with memories and regrets.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Console the bird." target="1" isAnswer="true"/>
+        <node desc="Leave him be." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {Judgment Bird put down his scales that have been with him forever.}
+{The eternal judgment finally ends.}
+{You obtain 'The scales that used to only tip in one direction'}
+{Judgment Bird slowly realizes the truth behind the beast.}
+{And he waits. For the forest that he will never take back.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {Judgment Bird sees through you, even though he is blind.}
+{He is weighing your sins.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

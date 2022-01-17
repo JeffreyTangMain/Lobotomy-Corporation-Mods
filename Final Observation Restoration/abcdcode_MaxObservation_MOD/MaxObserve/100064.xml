@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {"We will be willing to be dirty and dark to protect our good hearts."}
+{He reaches out a small hand.}
+{You...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Shake his hand." target="1" isAnswer="false"/>
+        <node desc="Don't shake his hand." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {There will be no more black.}
+{Only a clean, white heart is set on the side of your chest.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {Humans are always ugly.}
+{You are constantly jealous, angry, lazy, and coveted.}
+{A clean mind is temporary.}
+{Because we're all human.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

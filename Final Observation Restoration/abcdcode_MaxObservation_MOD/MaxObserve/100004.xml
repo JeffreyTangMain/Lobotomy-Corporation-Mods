@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {(The Queen of Hatred looks at you with curious eyes.)}
+{"What happened to 'Mr.Employee' who visited me frequently?"}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Tell the truth." target="1" isAnswer="false"/>
+        <node desc="Lie." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="2">
+        [
+        {You inform her that she has hurt employees.}
+{"Don't you lie."}
+{"I've never hurt anyone innocent."}
+{"..."}
+{"Wait, actually, I sometimes have these weird gaps in my memory."}
+{"And when I snap back, there's always a mess around me."}
+{"Then an unfamiliar employee comes to visit me. Not the one that regularly comes."}
+{"Nobody tells me what happened to the old one."}
+{"..."}
+{"Sometimes, people look at me in fear."}
+{"But they were so kind to me..."}
+{"By the way, did I tell you that I'm a magical girl?"}
+{"Yes, I've saved the world from evil."}
+{"And I've been here for a long, long time."}
+{"Everyone likes me."}
+{"But it seems the world doesn't need me anymore."}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {You tell her the employee is busy.}
+{"Please tell 'Mr.Employee' to visit me if he's not so busy."}
+{"This place is too quiet and boring."}
+{"Looks like everyone is pretty busy, huh?"}
+{"People I like disappear one by one."}
+{"..."}
+{"I don't want you to be my friend."}
+{"Because one day, you'll disappear too."}
+        ]
+      </desc>
+
+<select id="2">
+        <node desc="The world needs you." target="3" isAnswer="false"/>
+        <node desc="The world doesn't need you." target="4" isAnswer="true"/>
+      </select>
+
+<desc id="3" select="0">
+        [
+       {"Then I will continue on protecting the world!"}
+{She's too excited to continue the conversation.}
+        ]
+      </desc>
+
+<desc id="4" select="0">
+        [
+       {"I thought that might be the case."}
+{"It's hard to live if I'm not a hero."}
+{"Are you telling me that I have to admit that I'm no longer a magical girl?"}
+{She looks down to her feet and is close to tears.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

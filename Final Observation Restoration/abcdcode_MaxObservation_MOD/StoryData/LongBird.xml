@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="C_100035">
+     
+     <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+     <cg src="BlackCG"/>
+     <bgm src="story-03-ogg" />
+    <speak speaker="angela">custom/LongBird_1</speak>
+    <speak speaker="angela">custom/LongBird_2</speak>
+    <speak speaker="angela">custom/LongBird_3</speak>
+    <speak>custom/LongBird_4</speak>
+    <remove_cg effect="fade" />
+  </scene>
+</root>

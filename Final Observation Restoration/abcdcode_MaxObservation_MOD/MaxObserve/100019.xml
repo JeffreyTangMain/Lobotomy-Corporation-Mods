@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {I was the conductor of the Lobotomy Corporation, I put my everything into it.}
+{Now, I conduct an apocalyptic song to make everything right.}
+{I stretch out my arms as the performance is about to begin.}
+{I thought I was freer than anyone else, but in the end, I could never be free.}
+{...}
+{The performance ends.}
+{I...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Applaud." target="1" isAnswer="false"/>
+        <node desc="Do not applaud." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {The performance is never over.}
+{And "da capo".}
+        ]
+      </desc>
+
+  <desc id="2" select="0">
+        [
+       {I am not worthy to give applause yet.}
+{The music begins.}
+{Angela, this is my movement.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

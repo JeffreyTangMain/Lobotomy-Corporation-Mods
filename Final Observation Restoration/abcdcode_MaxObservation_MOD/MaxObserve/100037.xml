@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {The armor that took away many peoples' lives is sitting in front of you.}
+{You can put it on, if you wish.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Put it on." target="1" isAnswer="true"/>
+        <node desc="Don't put it on." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {It seems you're not a pacifist.}
+{You feel the armor's warm welcome.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+        {The armor waits for the next reckless person.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

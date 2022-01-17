@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {You see a thick forest that can't have grown up here.}
+{At its center is a tree with ripe fruit.}
+{You can hear a calm voice in your head.}
+{"Relax, have you come here to receive my blessing?"}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="I need it." target="1" isAnswer="false"/>
+        <node desc="I don't need it." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="2">
+        [
+        {"If you've never felt the need for someone's blessing, that's a lie."}
+{The voice of the tree grows louder as your mind and body get tired.}
+{The voice goes beyond the containment chamber and eventually finds you.}
+{"I just want to help you all."}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {"I just want to help you all."}
+{You didn't say a word in the end.}
+{"... you're a bad person if you say you don't need my blessing. There's nothing here for you."}
+{The trees disappeared just as fast as they grew.}
+        ]
+      </desc>
+
+   <select id="2">
+        <node desc="Get more people here." target="3" isAnswer="false"/>
+        <node desc="Don't get more people." target="4" isAnswer="true"/>
+      </select>
+      
+ <desc id="3" select="0">
+        [
+       {"I wish more staff would come to me."}
+{"All right, all right. You are a fine child, aren't you? I'll give you a present."}
+        ]
+      </desc>
+
+ <desc id="4" select="0">
+        [
+       {A blessing is not something that should be exchanged like a gift, but instead should be a wish for happiness.}
+{Don't be fascinated by the simple sounds of trees.}
+{"How could you refuse my blessing? You're a bad person, I don't need someone like you."}
+{Such slyness with these blessings will nourish your mind and body.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

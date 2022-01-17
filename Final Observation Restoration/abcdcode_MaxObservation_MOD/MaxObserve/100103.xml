@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {A man with a long hunting rifle looks at you.}
+{"I've been wandering with this gun for a long time. But I've run out of bullets long ago."}
+{"If you give me a bullet, I'll hit the target you want. Tell me your goal."}
+{You have a bullet.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Hand it over." target="1" isAnswer="false"/>
+        <node desc="Don't hand it over." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {The chamber is loaded with a bullet, and the chamber is fired.}
+{Your target has fallen to the ground.}
+{But the bullet never stops.}
+{Going on.}
+{Forever.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {"You're a coward."}
+{"But you'll come back to me someday."}
+{"The day will come when you'll pay for it, and you want my bullet."}
+{"But if you're holding on to your shabby soul until then, do whatever you want."}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

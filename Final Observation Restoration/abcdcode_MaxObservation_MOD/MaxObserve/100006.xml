@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {You know that people die every time this machine sings.}
+{Or perhaps this machine sings when people die.}
+{Though it has spilled the blood of countless people, the song enraptures you.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Turn off the machine." target="1" isAnswer="true"/>
+        <node desc="Listen to the music." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {You turned the machine off.}
+{Silence fills the air.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {The music gives you a sense of warm coziness and relaxation.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

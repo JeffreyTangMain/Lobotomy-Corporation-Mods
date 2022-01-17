@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {There is something burning in the forest.}
+{Your eyes are blindfolded, but you can feel the bright heat.}
+{It is a symbol of healing and life and a trophy that many people longed for.}
+{There is a shotgun in your hand.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Shoot it." target="1" isAnswer="false"/>
+        <node desc="Don't shoot it." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {The flames that were burning became fierce and scattered, leaving you with a token of honor.}
+        {"True Hunter", is this enough for you?}
+        ]
+      </desc>
+
+      <desc id="2" select="2">
+        [
+       {The existence that has become a myth.}
+{You have a strong curiosity about what everyone longed for but no one tried to face.}
+{But even as you can face it now, you have a blindfold on.}
+        ]
+      </desc>
+
+    <select id="2">
+        <node desc="Take it off." target="3" isAnswer="true"/>
+        <node desc="Don't take it off." target="4" isAnswer="false"/>
+      </select>
+
+<desc id="3" select="0">
+        [
+       {You can feel the pure white light burning in your eyes.}
+{Through the pain, you get your eyes open, wanting to see it clearly.}
+{It was a flame-like bird that disappeared into the forest.}
+        ]
+      </desc>
+<desc id="4" select="0">
+        [
+       {The heat that touched your face, covered with a blindfold, was so bright that you couldn't bear to take it off.}
+{You came back without finally facing it.}
+        ]
+      </desc>      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

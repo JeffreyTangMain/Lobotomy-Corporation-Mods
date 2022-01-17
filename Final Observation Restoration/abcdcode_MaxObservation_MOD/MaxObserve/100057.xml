@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {It wasn't that difficult to get close to the red flowers that were floating in the air.}
+{It hasn't been long since you first saw it.}
+{The red flower bows its head and shows its deadly spines to you.}
+{You...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Stroke it." target="1" isAnswer="false"/>
+        <node desc="Just look at it." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {To touch something or to stroke it is to show your trust to it.}
+{After a moment's pain, there's a road of happiness.}
+{An ecstasy that seems to compensate for all the trouble you've suffered, you think you can do anything now.}
+{Sooner or later, you will not be able to survive without the love of the red flowers.}
+{Even if you touch it only once, the ecstasy is all you have.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {The red flower, which was waiting for your hand with her head down, soon looks up at you}
+{However, your head has never been blown away or eaten.}
+{Trust is not something to be passed on so easily.}
+{You feel a somehow mysterious bond in the eyes of the red flower you encounter.}
+{You feel like you have a smile on your lips from the red flower that raised your head.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

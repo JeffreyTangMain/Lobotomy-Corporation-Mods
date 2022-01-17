@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {It is an abnormality with many legs attached to the shape of a blue heart.}
+{There is no mouth anywhere, but you can hear the sound of stars somewhere.}
+{The sound of singing and shouting from the center of the star welcomes you.}
+{You don't have to hesitate because you have to go back one day.}
+{You are in the center of the star.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Go in." target="1" isAnswer="true"/>
+        <node desc="Don't go in." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {You lose your reason and leave yourself to instinct.}
+{The warm light surrounds you and comforts you.}
+{The sensation of your body slowly faded away, but you didn't care.}
+{When you wake up again, you will have a new start.}
+{With peace in your mind, you closed your eyes forever.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {You turned away from the brilliant light.}
+{When you closed your eyes and thought about it, the light shone softly, not as brilliantly.}
+{Finally, you turned your head and saw the center of the star again.}
+{There was a quiet breeze coming from there.}
+{In the end, you didn't learn anything new about it.}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="C_100018">
+     
+     <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+     <cg src="BlackCG"/>
+     <bgm src="story-03-ogg" />
+    <speak speaker="angela">custom/StraitJacket_1</speak>
+    <speak speaker="angela">custom/StraitJacket_2</speak>
+    <speak speaker="angela">custom/StraitJacket_3</speak>
+    <speak>custom/StraitJacket_4</speak>
+    <remove_cg effect="fade" />
+  </scene>
+</root>

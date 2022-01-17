@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {You enter the containment chamber.}
+{There's a child standing there.}
+{"I think I know who you are."}
+{"Of course I do! We met each other before anyone else, right?"}
+{You're in the containment chamber.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="You leave." target="1" isAnswer="true"/>
+        <node desc="You stay." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {You leave the child and containment chamber behind.}
+{The pebbles that fall into your hand shine, shake, and tickle.}
+{They become the universe.}
+{"Goodbye, and don't come back."}
+{It's a farewell speech that doesn't match their cheerful smile.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {"Will you stay with me forever?"}
+{"Otherwise, I don't need you."}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

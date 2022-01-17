@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {You see and feel something.}
+{The ground is solid.}
+{A little bird is sitting beside me.}
+{No, it's not just a bird.}
+{It is the rotting, decaying carcass of a bird.}
+{Nothing else is around me.}
+{The prince came to wake a sleeping Snow White up with a kiss.}
+{The deadly poison that can melt bone with a drop proved to be useless.}
+{Why does no one visit me?}
+{Why does no one share my pain?}
+{Why does no one like me?}
+{I hope I have legs, no, it doesn't have to be legs. All I want is to be able to move.}
+{My prince...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="I shall go find him." target="1" isAnswer="false"/>
+        <node desc="Does not exist." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {Somewhere along the line, I realized I can walk.}
+{I see light. I hear people.}
+{I will be free from this torment...}
+{For I will meet my prince.}
+        ]
+      </desc>
+
+  <desc id="2" select="0">
+        [
+        {This is unfair.}
+{I want to be happy.}
+{It's too painful to wait.}
+{This loneliness is my bane.}
+{I want this misery to crush me out of existence.}
+{Some kind of legs sprouted out of me, but I have no place to go.}
+{However, I do not rot. I cannot stop existing.}
+{I have to go, although I have no place to go.}
+{I have to go.}
+{I go.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="C_100041">
+<character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+     <cg src="BlackCG"/>
+     <bgm src="story-03-ogg" />
+    <speak speaker="angela">custom/LittleWitch_1</speak>
+    <speak speaker="angela">custom/LittleWitch_2</speak>
+    <speak speaker="angela">custom/LittleWitch_3</speak>
+    <speak>custom/LittleWitch_4</speak>
+    <remove_cg effect="fade" />
+  </scene>
+</root>

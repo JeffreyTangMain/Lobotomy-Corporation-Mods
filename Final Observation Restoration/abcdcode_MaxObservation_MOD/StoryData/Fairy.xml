@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="C_100053">
+<character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+     <cg src="BlackCG"/>
+     <bgm src="story-03-ogg" />
+    <speak speaker="angela">custom/Fairy_1</speak>
+    <speak speaker="angela">custom/Fairy_2</speak>
+     <speak speaker="angela">custom/Fairy_3</speak>
+   <speak speaker="angela">custom/Fairy_4</speak>
+    <speak>custom/Fairy_5</speak>
+    <remove_cg effect="fade" />
+  </scene>
+</root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {"Hey."}
+{"Come on, don't be like that. I might look hideous, but that's not important to you, right?"}
+{"I am happy that you can hear me."}
+{"I once fought for happiness of the world."}
+{"But soon after, I noticed something."}
+{"Happiness for the world means happiness for me."}
+{"I'm trying to stay happy."}
+{"I don't care even if it got me look like this."}
+{"Have you met my sisters?"}
+{"We were always together."}
+{"We thought and shared goals together."}
+{"By the way..."}
+{"Are you happy now?"}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Yes, I'm happy." target="1" isAnswer="true"/>
+        <node desc="No, I'm not happy." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {The egg shakes violently.}
+{"Don't lie."}
+{"Why have we come to be like this if that's true?"}
+{"And why have you ended up like that?"}
+{"I will stay appetitive even if you tell me that."}
+{"But if your answer is truly resolve for the future, and not just a statement or fact..."}
+{"Things might change slowly."}
+        ]
+      </desc>
+
+  <desc id="2" select="0">
+        [
+        {"I knew you were not happy."}
+{"You are like me."}
+{"You trapped yourself inside of an egg, like me."}
+{"The amber-colored sky is beautiful."}
+{"Oh, I'm getting hungry again."}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

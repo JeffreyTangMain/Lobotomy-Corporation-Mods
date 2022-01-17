@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {There was one summer so very hot and unpleasant.}
+{Bees were busily flying around the beehive.}
+{They live only for the queen.}
+{"Are they happy, living only to work?" I asked myself. Then someone answered.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="For life." target="1" isAnswer="true"/>
+        <node desc="For loyalty." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {They have no other option but to obey, for they know that the moment they leave the queendom, only death awaits them.}
+{It is years later that I found out that their unshakable loyalty is because of a special pheromone which only the queen can produce.}
+{Everything started when I began to study that pheromone.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {The loyalty that bees possess is a natural instinct.}
+{If I find a way to control that instinct...}
+{Things will change.}
+{It is years later that I found out that their unshakable loyalty is because of a special pheromone which only the queen can produce.}
+{Everything started when I began to study that pheromone.}
+        ]
+      </desc>
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

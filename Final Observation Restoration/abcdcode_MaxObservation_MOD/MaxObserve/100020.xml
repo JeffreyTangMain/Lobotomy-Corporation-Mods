@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {A bird stares at you.}
+{What is the name of this bird?}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="A little bird." target="1" isAnswer="false"/>
+        <node desc="Punishing Bird." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

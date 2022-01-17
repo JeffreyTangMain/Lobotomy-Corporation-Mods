@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {You see a wolf with patchy fur.}
+{"I like it here."}
+{"At least it's better than where I used to live."}
+{"There are no pigs, or chickens, but I don't have to be the Big Bad Wolf, at least."}
+{"You didn't immediately kick me out, so I will tell you my name."}
+{"My name is ----"}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Remember the name." target="1" isAnswer="true"/>
+        <node desc="Forget it." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {"It's no use remembering it, nobody cares about my name!"}
+{The wolf seems happy regardless.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {"You better watch out. I can eat you with one bite if I want to."}
+{The wolf seems unhappy.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

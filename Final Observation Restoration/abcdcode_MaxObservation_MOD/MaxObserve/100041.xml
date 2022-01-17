@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {You're close to a child that looks like a little girl.}
+{You have the impression that it is more like an angel than a human being.}
+{"New friends! Nice to meet you! I gave presents to the friends who came before me, so do I have to give them to you?"}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Tell her what happened with the 'presents'." target="1" isAnswer="false"/>
+        <node desc="Tell a lie." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="2">
+        [
+        {"Really? That's impossible!"}
+{"They were all such great friends in the forest!"}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {"I wish people would laugh more!"}
+{"It seems that everyone here has forgotten how to laugh! You look lonely! You too!"}
+{"I hope my present will make you laugh even a little!"}
+        ]
+      </desc>
+
+    <select id="2">
+        <node desc="Be honest again." target="3" isAnswer="true"/>
+        <node desc="Turn a blind eye to it." target="4" isAnswer="false"/>
+      </select>
+
+<desc id="3" select="0">
+        [
+        {"..."}
+        {"I see. Even if I'm a friend, it might be different for others."}
+        {"There's no way... I really didn't think it would happen because of my friends."}
+        {"Thank you for telling me. I won't give you any more presents. Could you hang out with me a little more instead?"}
+        ]
+      </desc>
+<desc id="4" select="0">
+        [
+       {"Why won't you talk? What did I do wrong?"}
+       {"Answer me if you're listening, please..."}
+        ]
+      </desc>      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

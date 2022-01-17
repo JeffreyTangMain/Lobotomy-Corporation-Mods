@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {It smells like a rotting corpse in the containment chamber.}
+{A block of indescribably distorted and rotten flesh stares at you with a pair of twisted bodies and pale faces.}
+{They're laughing.}
+{You...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Turn away from the gaze." target="1" isAnswer="false"/>
+        <node desc="Face the gaze." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {You feel a need to get out of that place no matter what.}
+{It comes from the smell of rot, a sneering expression, and the weight of life.}
+        ]
+      </desc>
+
+      <desc id="2" select="2">
+        [
+       {They are coming towards you and as you step closer, you feel more nauseous.}
+{It stretches towards you a limb that you can no longer identify.}
+{You see a pale face. You feel as if you've seen it before.}
+{It's a face that has lost blood to the point of paleness.}
+        ]
+      </desc>
+
+<select id="2">
+        <node desc="I don't remember the face." target="3" isAnswer="false"/>
+        <node desc="I remember the face." target="4" isAnswer="true"/>
+      </select>
+
+<desc id="3" select="0">
+        [
+        {It's a simple corpse.}
+{One person's death is no different from the countless other deaths.}
+{Now, it opens its decayed, ripped mouth.}
+{It looks for a body to add to its form.}
+{It gets no such satisfaction.}
+        ]
+      </desc>
+<desc id="4" select="0">
+        [
+        {You remember that pale face.}
+{Only then do you realize that the limb that's reaching for you is the hand.}
+{A hand that is reaching for something that won't return.}
+{A hand that will never be held.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

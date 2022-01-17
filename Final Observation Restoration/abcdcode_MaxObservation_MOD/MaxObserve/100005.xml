@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {The sound of teeth grinding fills the air.}
+{Another incomprehensible sound can be heard.}
+{Its body has been broken for as long as it's been here.}
+{The twisted mouth opens, and the crushed tongue whirls.}
+{"M-ma......man-ag......r......."}
+{It's calling you.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Ignore it." target="1" isAnswer="true"/>
+        <node desc="Approach it." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {A chunk of the mouth falls to the ground, depriving the abnormality of its ability to speak.}
+{It's talking inside the body of an employee...}
+{But it's not the employee who speaks.}
+{That sound, calling me.}
+{It is nothing but an empty shell mimicking a dead person.}
+{How many employees have to hear this sound?}
+{It keeps getting closer to human.}
+{It keeps trying.}
+{However, as always, in the end...}
+{There's nothing there.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {I think of the people who were friends with this employee.}
+{Those eyes, shoulders, and every bit of muscle belong to someone else.}
+{It smiles.}
+{No, it pretends to smile.}
+{Who could it be?}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

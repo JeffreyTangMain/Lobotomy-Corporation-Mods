@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="SingingMachine_1">You turned off the machine, but as long as there's someone who wants it to work, it will turn on again at any time.</text>
+  <text id="SingingMachine_2">It means that nothing will change because of your choice.</text>
+  <text id="SingingMachine_3">Even though you knew that, you turned off the power.</text>
+  <text id="SingingMachine_4">What this means is obvious.</text>
+  <text id="SingingMachine_5">[Final Observation of Singing Machine achieved.]</text>
+</localize>

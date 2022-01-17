@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+{You covered your eyes and touched a metal box in front of you.}
+        {You can feel the box's gaze.}
+{You can feel the persistent gaze on your hand.}
+{You...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Take the blindfold off." target="1" isAnswer="false"/>
+        <node desc="Turn around." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {You rub your eyes as they adjust and face the box.}
+{You find an eye in the keyhole of the box.}
+{The eye looked into yours.}
+{You hear the sound of the box moving towards you.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {You turn around and feel for the door.}
+{It yearns for the eyes of others.}
+{It wants to constantly be recognized.}
+{It cannot exist without the gaze of others.}
+{The less attention it gets, the smaller it gets.}
+{Its blade, spikes, and eyes to attract attention are lost.}
+{In the end, you just breathe quietly in your own little world.}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

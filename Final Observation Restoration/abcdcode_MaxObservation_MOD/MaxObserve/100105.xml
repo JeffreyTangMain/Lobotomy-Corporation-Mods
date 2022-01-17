@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {A monk is standing silently with beads.}
+{"Why did you step into this place?"}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Greed." target="1" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="2">
+        [
+        {"What the hard working people need is a miracle and a savior. I wanted to make it happen."}
+{"I wanted to be a good person."} 
+{"I wanted to die a good person."} 
+{"I wanted to be something."}
+{"After a while, they'd all go back to nothing."}
+{"I wanted to do something."}
+        ]
+      </desc>
+
+<select id="2">
+        <node desc="Pride." target="2" isAnswer="false"/>
+      </select>
+
+      <desc id="2" select="3">
+        [
+       {"Shabby clothes. A shabby cane."}
+{"Lost, worn, and old Buddhist scriptures."}
+{"I could've afforded it if I wanted to buy a new one, and I could've fixed it if I wanted to rewrite it."}
+{"But I left it untouched. No, I tried to leave it untouched."}
+{"I didn't mean it, but it's a fake. All of that was from my pride."}
+{"I might have been wrong from the beginning."}
+        ]
+      </desc>
+
+<select id="3">
+        <node desc="Envy." target="3" isAnswer="false"/>
+      </select>
+
+<desc id="3" select="4">
+        [
+       {"I've done many good deeds, with many good teachings."}
+{"There are too many relationships with me. The relationships that have met with me."}
+{"Things that will eventually disappear."}
+{"Now all you have to do is die."}
+{"Everything felt useless."}
+        ]
+ </desc>
+<select id="4">
+        <node desc="Eternity." target="4" isAnswer="false"/>
+      </select>
+<desc id="4" select="5">
+        [
+       {"Water will not disappear."}
+{"Light will not disappear."}
+{"It's always different with us."}
+{"But I'm going to disappear."}
+{"In the end, there's no sign of a struggle to live like this."}
+{"I wanted to learn to escape the pain of eternity."}
+{"After all, I longed for eternity and failed."}
+        ]
+ </desc>
+<select id="5">
+        <node desc="Absolution." target="5" isAnswer="true"/>
+      </select>
+<desc id="5" select="0">
+        [
+       {"'Are you a monk?'"}
+{"'Are you a monk?'"}
+{"'You are no longer a monk.'"}
+{"'A demon shall never reach heaven.'"}
+{"I couldn't bear the weight of my sins and was crushed."}
+{"You are different."}
+{"You can get up."}
+{"You are a cruel sinner."}
+{"Please don't let anyone sway you."}
+        ]
+ </desc>
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

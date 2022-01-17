@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {It started singing.}
+{You...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Listen to it." target="1" isAnswer="true"/>
+        <node desc="Plug your ears." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {You silently listen to it.}
+{The universe lingers in your ears.}
+{You see the song. Glamorously, it approaches you.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {You are not prepared yet.}
+{The song stopped when you plugged the ears.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

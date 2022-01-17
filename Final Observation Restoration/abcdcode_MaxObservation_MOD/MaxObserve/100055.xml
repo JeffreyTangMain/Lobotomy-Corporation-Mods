@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {You can't see anything.}
+{But just because you can't see it doesn't mean it doesn't exist.}
+{Water in the cup you're holding starts to move.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Strain your nerves." target="1" isAnswer="false"/>
+        <node desc="Leave the containment chamber." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="2">
+        [
+        {You pay a great amount of attention to the cup and its surroundings.}
+{The visibility is getting distorted and the lights are reflecting wildly, making the containment chamber a little darker.}
+{The water in the cup is fluctuating and overflowing.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {You am aware of the danger and get out of there.}
+{The cup becomes still.}
+        ]
+      </desc>
+
+   <select id="2">
+        <node desc="Squint your eyes." target="3" isAnswer="true"/>
+        <node desc="Leave the containment chamber." target="2" isAnswer="false"/>
+      </select>
+      
+<desc id="3" select="0">
+        [
+       {You squint your eyes and focus on the cup.}
+{A cup that fluctuates and spills out water rises to be fixed in the air.}
+{It stretches like something is pulling it, and then it breaks.}
+{The wreckage of the cup is still floating in the air.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

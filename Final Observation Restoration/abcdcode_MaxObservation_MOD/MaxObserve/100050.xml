@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {The scarecrow standing in the middle of the field had no brain.}
+{The scarecrow was in pain because he had no brain but could think.}
+{The scarecrow, eager for brains and wisdom, followed a girl on a trip.}
+{And finally, he succeeded in getting what he wanted.}
+{The wise scarecrow gained freedom, but those who were uncomfortable with it took wisdom away from the scarecrow.}
+{The scarecrow was in pain because he had no brain but could think.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Hunt for wisdom." target="1" isAnswer="false"/>
+        <node desc="Wait patiently." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {I crave wisdom as my instincts lead me.}
+{Just like people who act without thinking, there are only scarecrows who act without thinking.}
+{I will take their wisdom away from them, just as they have taken my wisdom from me.}
+{I will make a space in their head to fill in the void in mine.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {As I have done before, I will persevere and persevere.}
+{I will wait, as if I have no soul.}
+{Even though I can't change what is and isn't, if I wait, someone can come and save me.}
+{For now though, I will drive out the birds that have been ignoring me in the field. I will drive them out again and again.}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

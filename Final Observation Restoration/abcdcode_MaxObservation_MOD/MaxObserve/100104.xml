@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {There was something, the darkest of any color.}
+{It was one half of a whole, and when they were one, it sparkled more than anything else.}
+{But now that they're separated, they miss each other forever.}
+{When you look at the black curved pendant, it makes you feel as if something was burrowing into your mind and tearing it apart.}
+{You lifted up the pendant that seemed to gather all the darkness in the world...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Put it back." target="1" isAnswer="false"/>
+        <node desc="Put it on." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {It was the darkness itself.}
+{Everyone has it, but everyone has denied it, and you're not ready to accept it either.}
+{Is it worth living to paint everything into darkness just by being there?}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {As soon as you hung the pendant around your neck, darkness that seemed to penetrate your body weighed you down. Soon it caused a delirious pain as if it were eroding something.}
+{You didn't mean to insult it. It was just the way it existed.}
+{If there is the brightest, sublime, and beautiful light somewhere, shouldn't there be the darkest, dirtiest, and ugliest darkness as well?}
+{There is heaven because of hell, there is light because of darkness, and there is life because of death, because of despair.}
+{How can the world only exist with brightness and warmth?}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

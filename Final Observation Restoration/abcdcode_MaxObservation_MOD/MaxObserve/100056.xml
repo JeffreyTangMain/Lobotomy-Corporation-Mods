@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {In front of you, you can see the containment chamber that has been (CENSORED).}
+{It is said that many managers went crazy when they faced it.}
+{You have a chance to open the door.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Open the door." target="1" isAnswer="false"/>
+        <node desc="Do not open the door." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {You open the door and smell something (uncensored).}
+{The lights in the containment chamber turn on, clearing the censor.}
+{And...}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {You grab the doorknob, but you can't open it.}
+{Just imagining it makes you sick.}
+{You don't open the door of the containment chamber and run away.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

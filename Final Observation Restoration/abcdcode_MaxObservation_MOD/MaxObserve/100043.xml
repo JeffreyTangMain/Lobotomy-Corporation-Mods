@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {Dressed up in a tuxedo and lifting a coffin, it is a tall gentleman with butterfly wings on their face.}
+{The butterflies start flapping around the containment chamber, and he lays the coffin between himself and you.}
+{It's empty, it seems he prepared this for you.}
+{You...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Go into the coffin." target="1" isAnswer="false"/>
+        <node desc="Don't go into the coffin." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {When you go into the coffin and lie down, it feels as if you've slept in bed for a long time.}
+{You feel drowsy and light as if you were floating.}
+{Countless butterflies start to soar and fill your surroundings before you know it.}
+        ]
+      </desc>
+
+      <desc id="2" select="2">
+        [
+       {You know this coffin should be used for others.}
+{Instead of lying in this coffin, you offered your condolences to the proper owner of this coffin.}
+{Then this man of butterflies gives you a butterfly.}
+{You know what to do with this butterfly.}
+{You...}
+        ]
+      </desc>
+
+   
+      <select id="2">
+        <node desc="Put it in the coffin." target="3" isAnswer="true"/>
+      </select>
+
+ <desc id="3" select="0">
+        [
+        {Butterflies white in wings and body.}
+{This butterfly is the soul of the departed.}
+{You put the butterfly in the coffin and put the dead to rest.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

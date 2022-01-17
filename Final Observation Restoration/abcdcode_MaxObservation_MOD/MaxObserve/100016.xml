@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {I heard about a man who could give you anything you want once a year.}
+{Good kids are more likely to meet him.}
+{A man who carries a giant sack on his back. A man who can go anywhere in the world with his reindeer-pulled sled.}
+{Alex got a present, even though he was a naughty kid.}
+{It was unfair, I could not accept it.}
+{Next Christmas, I went to Alex's.}
+{If that man comes only for Alex this time again, I will ask him why he had not come to me.}
+{That night, while everyone was sleeping, I waited for the man, sitting next to a sleeping Alex.}
+{...}
+{Sometimes, for someone, an absurd fairy tale is a glimmer of hope.}
+{When I met Santa, I imagined dismembering him.}
+{...}
+{In front of me is Santa. From my fairy tale.}
+{People don't call this "Santa".}
+{Something is twitching inside of that sack.}
+{I...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Open the sack." target="1" isAnswer="false"/>
+        <node desc="Don't open the sack." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {There was something that I have been longing for my entire life.}
+{Like Pandora's Box, it will never go back into the sack.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {Inside of the sack is hope.}
+{The hope that I've been holding onto since when I was very young.}
+{I never opened the sack.}
+{Did your wish come true?}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

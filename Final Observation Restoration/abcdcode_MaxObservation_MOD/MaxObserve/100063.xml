@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {The door opens and the smell of sweet strawberries makes its way to you.}
+{Lovely pink slime welcomes you. It's as if it's craving affection from you.}
+{You unconsciously try to reach out, but you stop yourself.}
+{You hold for a moment...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Continue writing your final observation." target="1" isAnswer="false"/>
+        <node desc="Touch the pink slime." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {When you leave the containment chamber after work, there is a large slime heart on your head.}
+{It wriggles and scatters strawberry-flavored slime everywhere.}
+{It will gain affection from others through you if it does not receive affection from you.}
+        ]
+      </desc>
+
+      <desc id="2" select="2">
+        [
+       {It smells sweet and feels comfortable around your hand.}
+{Your hand falls deeper into its body.}
+{You feel both sense of crisis and relief.}
+        ]
+      </desc>
+
+    <select id="2">
+        <node desc="Leave your whole body to be swept away." target="3" isAnswer="false"/>
+        <node desc="Take your hand out carefully." target="4" isAnswer="true"/>
+      </select>
+      
+<desc id="3" select="0">
+        [
+        {It's sinking... deep... deeper and deeper.}
+{It turns pink everywhere and the scent of strawberries permeates your whole body.}
+{"Let's be together forever now."}
+        ]
+      </desc>
+
+<desc id="4" select="0">
+        [
+{There is still a pink heart on your head, but it won't long for affection from others for the time being.}
+{A light strawberry scent is in your still sticky hands.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {Maybe that day was the most nightmarish since this company was founded.}
+{The hours of dying and unpredictable circumstances made by employees who were overwhelmed by despair.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="I still remember." target="1" isAnswer="true"/>
+        <node desc="Try to forget." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {I have a stuffy nose and my hearing rings. I'm dizzy. I'm filled with anger from an unknown cause.}
+{The nightmare of "April 23rd" is a mistake that should never be repeated again, and it's a pain I don't want to experience again.}
+{But at the same time, the ringing ears, fresh blood, and scenery on that day became a guide for the future.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {I escape from that memory. From the employee devastation and death.}
+{This is the usual in a den of monsters.}
+{The manager should not be swayed by such a thing.}
+{I leave the past behind and turn to face the present.}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

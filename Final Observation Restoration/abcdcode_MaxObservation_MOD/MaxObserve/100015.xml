@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {Thou hast knocked on the door, now it hath opened.}
+{Thou who carries a burden, came to seek the answer.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Who are you?" target="1" isAnswer="true"/>
+        <node desc="Where are you from?" target="2" isAnswer="true"/>
+        <node desc="Why have you come?" target="3" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {This question is too empty to answer.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+        {I am from the end.}
+        ]
+      </desc>
+
+
+   <desc id="3" select="0">
+        [
+        {This question is worth no answer, for its answer is clear.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

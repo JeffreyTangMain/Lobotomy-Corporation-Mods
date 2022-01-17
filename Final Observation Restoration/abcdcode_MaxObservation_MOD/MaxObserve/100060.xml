@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {A purple sheep with closed eyes is floating in front of you.}
+{The fur has some eyes too, but it looks so soft you'd fall asleep just touching it.} 
+{When you touch the fur, you feel sleepy and your eyes start to close.} 
+{You...} 
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Fall asleep." target="1" isAnswer="false"/>
+        <node desc="Try to wake yourself from sleep." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {Your eyes are closing little by little, and you feel drowsy.}
+{It's getting darker and darker, and there's nothing left.} 
+{In the end, only emptiness remains here.} 
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {You, who tried to resist the sweet temptation, continue what you were doing quietly.}
+{You feel empty when you see the sheep with its eyes closed.} 
+{The emptiness that eventually just became temptation but never showed itself again.} 
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

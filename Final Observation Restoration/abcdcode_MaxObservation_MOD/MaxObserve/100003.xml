@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {I found a pair of shoes.}
+{I could leave them in front of me, or I could wear them.}
+{I am...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="I'm wearing them." target="1" isAnswer="false"/>
+        <node desc="I'm not wearing them." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="2">
+        [
+        {I am wearing the shoes.}
+{It's a comfortable fit around my feet.}
+{I feel strange, as if I've gone to a different world.}
+{After some time, I notice a sharp axe in front of me.}
+{Maybe it was there all along. Maybe I didn't notice it until now.}
+{As I move forwards, I know I can have anything I want.}
+{But at the same time, a weapon will change everything.}
+{I...}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {I'm not wearing the shoes.}
+{The shoes' crimson color gets deeper.}
+        ]
+      </desc>
+
+<select id="2">
+        <node desc="I take the axe." target="3" isAnswer="true"/>
+        <node desc="I don't take the axe." target="4" isAnswer="false"/>
+      </select>
+
+<desc id="3" select="0">
+        [
+       {I take hold of the axe.}
+{This tool can cut through anyone's foot, even one's own.}
+{The blade of the axe is as sharp as a razor.}
+{I know who sharpened it.}
+{The shoes are colorless.}
+{They will be red soon.}
+        ]
+      </desc>
+
+<desc id="4" select="0">
+        [
+       {I don't take the axe.}
+{Only the shoes know the way that I should go.}
+        ]
+      </desc>
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

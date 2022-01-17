@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {I see puddles of blood here and there.}
+{This is not the blood of employees.}
+{I hear the beast roaring.}
+{It wants to die, every single day.}
+{These puddles are evidence of the monster's futile struggle to end its life.}
+{"Kill me. Stab me with that knife you have."}
+{The monster cannot talk. However, the soul trapped in it can.}
+{"Why are you not helping me when you can hear me?"}
+{The monster asks reproachfully.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Because this problem can't be solved with death." target="1" isAnswer="false"/>
+        <node desc="Because I don't have a knife." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="2">
+        [
+        {"That's not important. Every single second is agony for me."}
+{"Death is a prize compared to this endless pain."}
+{"But you are right. It is your job to solve this. Not death's."}
+{"Child, would you make a promise? Would you free me from this cycle when you are ready?"}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {"You are lying."} 
+{"You know you can pull out that knife from your pocket whenever you want."}
+        ]
+      </desc>
+    
+       <select id="2">
+        <node desc="Make a promise." target="3" isAnswer="true"/>
+        <node desc="Make no promise." target="4" isAnswer="false"/>
+      </select>
+
+<desc id="3" select="0">
+        [
+        {"Then I will continue waiting for my death here."}
+{The beast roars, then starts pounding its head into the wall.}
+        ]
+      </desc>
+
+      <desc id="4" select="0">
+        [
+       {"You have no courage."}
+{"You don't have the courage to stab me, or to free me from this cycle."}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

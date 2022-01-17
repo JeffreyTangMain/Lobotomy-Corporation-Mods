@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {A vending machine stands before you.}
+        {Two delicious looking shrimp are standing at both sides of the machine.}
+        {Will you buy soda?}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="YES" target="1" isAnswer="true"/>
+        <node desc="NO" target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {You drank soda.}
+{Your eyes close.}
+{You fell asleep.}
+{...}
+{Somewhere in the distance, you hear seagulls.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {You didn't buy soda.}
+{But the shrimp on the right bought it for you.}
+{You drank soda.}
+{Your eyes close.}
+{You fell asleep.}
+{...}
+{Somewhere in the distance, you hear seagulls.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

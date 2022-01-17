@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {The enkephalin cure affected not only mind, but also body.}
+{The problem is, the cure was everywhere when we realized its flaws.}
+{One of problems was a numbing of emotions.}
+{People believed they could live a happy life.}
+{People believed they could buy and sell happiness and sadness with money.}
+{When the first suicide happened, we should have known that these beliefs had been shattered.}
+{...}
+{Many hands float in the bath.}
+{Hands that want to grab something but catch nothing.}
+{You...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Grab a hand." target="1" isAnswer="true"/>
+        <node desc="Don't grab a hand." target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {You feel coldness and stiffness.}
+{You know these hands.}
+{These are the hands of people you once loved.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {You look away.}
+{This is not the first time you've ignored them.}
+{And this won't be the last.}
+        ]
+      </desc>
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

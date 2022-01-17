@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {Her feelings dried up because of the constant repetition of faith and betrayal.}
+{I feel despair and deep sorrow as I get closer.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Leave her alone." target="1" isAnswer="false"/>
+        <node desc="Comfort her." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {Forever regret and despair continue.}
+{A desperate knight will turn to the sword for what she once was desperate to keep.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {Sadness becomes dull as more people share it.}
+{Deep despair and sorrow will not disappear, but it will be enough to rekindle a frustrated spirit.}
+{The woman, the knight, the despairing soul will stop regretting and protect someone again.}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

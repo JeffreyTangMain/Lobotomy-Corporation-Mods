@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {This abnormality is filled with the dreams of bald people.}
+        {Are you balding, or already bald?}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Yes" target="1" isAnswer="true"/>
+        <node desc="No" target="2" isAnswer="false"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {The Lobotomy Corporation welcomes you.}
+        ]
+      </desc>
+
+      <desc id="2" select="2">
+        [
+        {Then do you wish to be bald?}
+        ]
+      </desc>
+
+   <select id="2">
+        <node desc="Yes" target="3" isAnswer="true"/>
+        <node desc="No" target="4" isAnswer="false"/>
+      </select>
+      <desc id="3" select="0">
+        [
+        {You turned on your electric hair clipper.}
+        {The Lobotomy Corporation welcomes you.}
+        ]
+      </desc>
+      <desc id="4" select="0">
+        [
+        {Come back after watching Fast and Furious 7 at least 5 times.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>

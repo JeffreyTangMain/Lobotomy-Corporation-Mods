@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {The dense fog covered the whole city.}
+{For her family, Elijah opened up an old parasol and headed for work.}
+{Is it because her lungs are full of smoke? She also began to retch like the people around her.}
+{As her vision darkens, a lake rippled silently before her eyes.}
+{In the middle of the lake, Elijah saw some swans preparing to soar into the sky.}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="See the white swans." target="1" isAnswer="false"/>
+        <node desc="See the black swan." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {6 white swans.}
+{They're the ones she loves so much.}
+{The lethargic swans now spread their white wings and head for the sky.}
+{The black swan alone in the lake looks up at the swans.}
+{She hugs the clothes made of nettles with all of her heart.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {1 black swan.}
+{They are willing to sacrifice for their family.}
+{The black swan that dreamed of loving swans wakes up and heads to the sky.}
+{The swans left in the lake look up at the black swan.}
+{She hugs the clothes made of nettles with all of her heart.}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {The spirit of not fearing death fits the Lobotomy Corporation's motto.}
+        {But I'm not sure if I can say that it's a good spirit.}
+        ]
+      </angela>
+    </max>
